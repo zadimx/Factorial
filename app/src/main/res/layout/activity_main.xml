@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numberWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/numerik"
+        android:textSize="20sp"
+        android:maxLength="17"/>
+
+    <LinearLayout
+        android:id="@+id/numerik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:onClick="number1"/>
+
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="2"
+                android:onClick="number2"/>
+
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="3"
+                android:onClick="number3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="4"
+                android:onClick="number4"/>
+
+            <Button
+                android:id="@+id/number5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="5"
+                android:onClick="number5"/>
+
+            <Button
+                android:id="@+id/number6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6"
+                android:onClick="number6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="7"
+                android:onClick="number7"/>
+
+            <Button
+                android:id="@+id/number8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="8"
+                android:onClick="number8"/>
+
+            <Button
+                android:id="@+id/number9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="9"
+                android:onClick="number9"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/number0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="0"
+            android:onClick="number0"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
