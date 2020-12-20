@@ -29,8 +29,6 @@ public class WriteFactor extends AppCompatActivity {
         textView.setMovementMethod(new ScrollingMovementMethod());
     }
 
-
-
     class Treads extends AsyncTask<Void, Void, Void> {
 
         @Override
